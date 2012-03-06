@@ -16,7 +16,7 @@ begin
     s.homepage = 'http://github.com/abhay/calais'
     s.description = 'A Ruby interface to the Calais Web Service'
     s.authors = ['Abhay Kumar']
-    s.files = FileList["[A-Z]*", "{bin,generators,lib,test}/**/*"]
+    s.files = FileList["[A-Z]*", "{bin,generators,lib,test}/**/*"].exclude('Gemfile.lock')
     s.rubyforge_project = 'calais'
     s.add_dependency 'nokogiri', '>= 1.3.3'
     s.add_dependency 'json', '>= 1.1.3'
