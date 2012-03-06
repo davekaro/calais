@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), %w[.. helper])
+require 'spec_helper'
 
 describe Calais::Response, :new do
   it 'accepts an rdf string to generate the response object' do

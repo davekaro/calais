@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), %w[.. helper])
+require 'spec_helper'
 
 describe Calais::Client, :new do
   it 'accepts arguments as a hash' do
